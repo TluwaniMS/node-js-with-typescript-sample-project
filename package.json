@@ -22,15 +22,14 @@
   },
   "scripts": {
     "dev": "ts-node server.ts",
-    "prepare": "npx husky install",
+    "prepare": "husky install && chmod ug+x .husky/*",
     "format-files": "pretty-quick --staged",
-    "build":"npx tsc"
+    "build": "npx tsc"
   },
   "name": "js-server-template",
   "description": "",
   "version": "1.0.0",
   "main": "app.js",
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TluwaniMS/node-js-server-template.git"
