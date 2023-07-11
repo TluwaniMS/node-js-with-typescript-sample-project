@@ -22,7 +22,7 @@
   },
   "scripts": {
     "dev": "ts-node server.ts",
-    "prepare": "husky install",
+    "prepare": "npx husky install",
     "format-files": "pretty-quick --staged",
     "build":"npx tsc"
   },
