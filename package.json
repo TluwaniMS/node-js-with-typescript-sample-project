@@ -21,7 +21,8 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "dev": "ts-node server.ts",
+    "dev": "npx nodemon server.ts",
+    "start": "node dist/server.js",
     "prepare": "husky install && chmod ug+x .husky/*",
     "format-files": "pretty-quick --staged",
     "build": "npx tsc"
