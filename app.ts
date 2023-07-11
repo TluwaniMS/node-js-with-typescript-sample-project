@@ -1,9 +1,9 @@
-import express from 'express'
+import express, { Application } from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
 import morgan from 'morgan'
 
-export const app = express()
+export const app: Application = express()
 
 app.use(cors())
 app.use(helmet())
